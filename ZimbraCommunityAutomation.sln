@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimbraCommunityAutomation.Powershell", "ZimbraCommunityAutomation.Powershell\ZimbraCommunityAutomation.Powershell.csproj", "{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Powershell", "Powershell", "{977E25CD-E874-4382-B614-C31C4DFBE53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestApi", "RestApi", "{D79BB02A-8028-4563-8696-922B7F390187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimbraCommunityAutomation.RestApi", "ZimbraCommunityAutomation.RestApi\ZimbraCommunityAutomation.RestApi.csproj", "{62B197E3-8AB9-4590-8185-90C5F769FDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZimbraCommunityAutomation.DataModel", "ZimbraCommunityAutomation.DataModel\ZimbraCommunityAutomation.DataModel.csproj", "{3EE6099F-CCB4-4515-8A42-001940B566F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B197E3-8AB9-4590-8185-90C5F769FDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B197E3-8AB9-4590-8185-90C5F769FDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B197E3-8AB9-4590-8185-90C5F769FDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B197E3-8AB9-4590-8185-90C5F769FDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE6099F-CCB4-4515-8A42-001940B566F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE6099F-CCB4-4515-8A42-001940B566F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE6099F-CCB4-4515-8A42-001940B566F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE6099F-CCB4-4515-8A42-001940B566F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{203BE9B1-CD6B-4DD8-B193-FB3537AC59B3} = {977E25CD-E874-4382-B614-C31C4DFBE53C}
+		{62B197E3-8AB9-4590-8185-90C5F769FDFC} = {D79BB02A-8028-4563-8696-922B7F390187}
+	EndGlobalSection
+EndGlobal
