@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RhysGodfrey.ZimbraCommunity.RestApi</id>
+    <version>$version$</version>
+    <authors>Rhys Godfrey</authors>
+    <description>WORK IN PROGRESS. .NET Rest API Client for Zimbra Community.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/rhysgodfrey/zimbra-community-automation</projectUrl>
+  </metadata>
+  <files>
+    <file src="bin\Debug\ZimbraCommunityAutomation*.dll" target="lib" />
+  </files>
+  <dependencies>
+    <dependency id="Newtonsoft.Json" version="6.0.2" />
+  </dependencies>
+</package>
